@@ -4,8 +4,6 @@
 	<title>Test</title>
 </head>
 <body>
-
-
- 
+Hello <?= $data?>
 </body>
 </html>
