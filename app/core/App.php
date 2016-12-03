@@ -25,7 +25,7 @@ class App{
        {
 	       if(method_exists($this->controller,$url[1]))
 	       {
-	       	   echo '';
+	       	   echo ' ';
 	       }
        }
 
