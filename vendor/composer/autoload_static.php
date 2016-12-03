@@ -15,12 +15,20 @@ class ComposerStaticInita8e52178705bdf32ea04fae91c6ee1f8
         array (
             'FastRoute\\' => 10,
         ),
+        'A' => 
+        array (
+            'Atdhe\\' => 6,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'Atdhe\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/phpmvc',
         ),
     );
 

@@ -1,9 +1,8 @@
 <?php 
 require_once '/../app/init.php';
 
-$app=new App();
-$appName=$app->name;
+$app=new App('contact','index');
+$app;
 
 
-//$model=new User();
-//$controllModel = $controller->index('antigona','sad');
+

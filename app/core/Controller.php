@@ -1,11 +1,13 @@
 <?php 
  class Controller {
 
- 		public function __construct(){
- 			
+ 		public function model($model)
+ 		{
+ 			require_once '/../app/model/'.$model.'.php';
+ 			return new $model();
  		}
+ 		
  	
  }
 
- 
 ?>

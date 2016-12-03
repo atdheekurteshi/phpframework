@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<?=var_dump(true);?>
+
  
 </body>
 </html>
